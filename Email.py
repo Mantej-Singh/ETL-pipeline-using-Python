@@ -3,7 +3,7 @@ def send():
     import smtplib as email
     gserver= email.SMTP('smtp.gmail.com',587)
     gserver.starttls()
-    gserver.login("mdmantejsingh@gmail.com","httpman.html")
+    gserver.login("mdmantejsingh@gmail.com","email_pwd")
     sender = 'mdmantejsingh@gmail.com'
     receivers = ['mdmantejsingh@gmail.com']
 
